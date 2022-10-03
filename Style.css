@@ -1,0 +1,46 @@
+div{
+  width: 100%;
+}
+  body 
+  {
+    max-inline-size: 88em;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+  }
+  img 
+  {
+    max-inline-size: 100%;
+    block-size: auto;
+    inline-size: auto;
+    width: 100%;
+    height: auto;
+    max-width:100% !important;
+    max-height:100% !important;
+  }
+  main 
+  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+  main section 
+  {
+    flex-basis: 22em;
+    flex-grow: 1;
+    padding: var(--metric-box-spacing);
+    background-color: var(--color-off-white);
+    border-radius: var(--metric-radius);
+    box-shadow: var(--generic-shadow);
+    border-style: groove;
+  }
+  p.groove 
+  {
+    border-style: groove;
+  }
+  table,th,td
+  {
+    
+    border:1px solid black;
+  }
